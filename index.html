@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
+
 <body>
- <!-- ESTE ES EL NAV -->
-   
-     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand mx-auto justify-content-center" href="#">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">
                 <img src="./img/logo.svg" alt="Logo">
             </a>
-            <div class="d-flex flex-column flex-lg-row w-100">
-                <ul class="navbar-nav mx-auto justify-content-center flex-column flex-lg-row" >
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Nosotros</a>
                     </li>
@@ -34,48 +38,51 @@
                 </ul>
             </div>
         </div>
-    </nav> 
-<!-- PRIMER APARTADO -->
+    </nav>
+
+
     <section class="hero-section">
         <div class="row">
             <div class="col-lg-6">
                 <br><br><br><br><br>
-                <div class="seperador-linea"></div>
+                <div class="line"></div>
                 <h1 class="display-7">20 AÑOS DE<br>EXPERIENCIA</h1>
                 <p class="lead">Nos respaldan, siempre ofertando los mejores cursos para principiantes y expertos</p>
-                <div class="seperador-linea"></div>
+                <div class="line"></div>
             </div>
             <div class="col-lg-6">
                 <img src="./img/bloque_1.jpg" alt="" class="img-fluid">
             </div>
         </div>
     </section>
-    
+
     <section class="about-section">
         <div class="row">
             <div class="col-md-6">
-                <img src="./img/bloque_2.jpg" alt="" class="img-fluid" >
+                <img src="./img/bloque_2.jpg" alt="" class="img-fluid">
             </div>
             <div class="col-md-6 d-flex align-items-center justify-content-center text-center">
                 <div>
                     <br>
-                    <div class="seperador-linea"></div>
+                    <div class="line"></div>
                     <h2 class="display-6">SOBRE NOSOTROS</h2>
                     <p class="lead">Un grupo de expertos, integrado por chefs de los mejores restaurantes de la ciudad
                     </p>
-                    <div class="seperador-linea"></div>
+                    <div class="line"></div>
                 </div>
             </div>
         </div>
     </section>
-<!-- SEGUNDO APARTADO  -->
+
     <section class="why-us-section">
         <div class="container">
             <h2 class="text-center mb-5">¿Porqué estudiar con nosotros?</h2>
-            <div class="seperador">
+            <div class="section-divider mb-5">
                 <img src="./img/separador.png" alt="" class="img-fluid">
             </div>
+
             <div class="row text-center mt-5">
+
                 <div class="col-lg-4">
                     <img src="./img/icono_chef.png" alt="Chef icon" class="feature-icon">
                     <br>
@@ -85,6 +92,8 @@
                     <p class="feature-text">Los mejores chef's que han trabajado en los mejores restaurants de Europa.
                     </p>
                 </div>
+
+
                 <div class="col-lg-4">
                     <img src="./img/icono_vino.png" alt="Wine glasses icon" class="feature-icon">
                     <br>
@@ -94,6 +103,8 @@
                     <p class="feature-text">Además de la cocina, incluimos en el programa todo lo relacionado a bebidas.
                     </p>
                 </div>
+
+
                 <div class="col-lg-4">
                     <img src="./img/icono_menu.png" alt="Menu icon" class="feature-icon">
                     <br>
@@ -105,13 +116,10 @@
             </div>
         </div>
     </section>
-<!-- LAS CARDS -->
     <section class="py-5">
         <div class="container">
-            <h2 class="text-center mb-4">Próximas Clases</h2>
-
-
-            <div class="seperador mb-5">
+            <h2 class="text-center mb-5">Proximas Clases</h2>
+            <div class="section-divider mb-5">
                 <img src="./img/separador.png" alt="" class="img-fluid">
             </div>
 
@@ -144,7 +152,8 @@
                             <p class="titulo2">Añade la planeación de menús para bodas a tus habilidades.</p>
                             <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
                                 possimus quam odit harum explicabo. Eius a iusto minima voluptas non id obcaecati sit
-                                dolorum nulla! Provident unde aliquid fugiat facilis!</p>
+                                possimus quam odit harum explicabo. Eius a iusto minima voluptas non id
+                                </p>
                             <a href="#" class="boton-info">Más Información</a>
                         </div>
                     </div>
@@ -169,9 +178,6 @@
             </div>
         </div>
     </section>
-
-<!-- APARTADO 2 DE LAS CARTAS -->
-
     <section class="py-5">
         <div class="container">
             <div class="row">
@@ -203,7 +209,8 @@
                             <p class="titulo2">Añade la planeación de menús para bodas a tus habilidades.</p>
                             <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
                                 possimus quam odit harum explicabo. Eius a iusto minima voluptas non id obcaecati sit
-                                dolorum nulla! Provident unde aliquid fugiat facilis!</p>
+                                possimus quam odit harum explicabo. Eius a iusto minima voluptas non id
+                                </p>
                             <a href="#" class="boton-info">Más Información</a>
                         </div>
                     </div>
@@ -212,12 +219,12 @@
 
                 <div class="col-md-4">
                     <div class="card position-relative">
-                        <img src="./img/clase6.jpg" alt="Menús para bodas">
-                        <div class="fecha"><span>20 / Mayo / 2022 18:00 Hrs</span></div>
+                        <img src="./img/clase6.jpg" alt="Preparación de Pasteles">
+                        <div class="fecha">20 / Mayo / 2022 18:00 Hrs</div>
                         <span class="price">$300</span>
                         <div class="card-content">
-                            <h3 class="titulo">Planeación de Menús para bodas</h3>
-                            <p class="titulo2">Añade la planeación de menús para bodas a tus habilidades.</p>
+                            <h3 class="titulo">Preparación de Pasteles</h3>
+                            <p class="titulo2">Aprende a preparar deliciosos postres con este curso.</p>
                             <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
                                 possimus quam odit harum explicabo. Eius a iusto minima voluptas non id obcaecati sit
                                 dolorum nulla! Provident unde aliquid fugiat facilis!</p>
@@ -225,100 +232,48 @@
                         </div>
                     </div>
                 </div>
-                
             </div>
         </div>
     </section>
-
-
-<!-- TERCER APARTADO  -->
-
-    <div class="col-md-12 position-relative d-flex justify-content-center align-items-center">
-
-        <img src="./img/chef_bg.jpg" alt="" class="img-fluid w-100" height="60vh">
-        <div class="position-absolute text-center text-white">
-            <h3>¿Quieres ser Chef</h3>
-            <br>
+    <section class="hero2">
+        <div class="hero2-text">
+            <h1>Quieres ser Chef?</h1>
             <p>Estudia la licenciatura para convertirte en</p>
             <p>Chef con nosotros</p>
-            <br>
-            <div class="boton-info">
-
-                <a href="#"  class="Boton">Más Información</a>
-            </div>
+            <center>
+            <a style="max-width: 240px;" href="#" class="more-info-btn">Más Información</a>
+        </center>
         </div>
-
-
-
-    </div>
-
-<br>
-
-
-
-<!-- FOOTER DE LA PAGINA -->
-
-<footer class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid flex-lg-row flex-column align-items-lg-start align-items-center text-center text-lg-start">
-      
-        <div class="navbar-collapse flex-lg-row flex-column align-items-lg-start align-items-center text-center text-lg-start" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="navbar-brand " href="#">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Clases</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Galeria</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                </li>
-            </ul>
-            <span class="navbar-text mt-2 mt-lg-0">
-                Todos los derechos reservados
-            </span>
-        </div>
-    </div>
-</footer>
-
-    <!-- <footer class="navbar navbar-expand-lg bg-body-tertiary ">
+    </section>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Nosotros</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">blog</a>
+                <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Clases</a>
+                <a class="nav-link active" aria-current="page" href="#">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Galeria</a>
+                <a class="nav-link active" aria-current="page" href="#">Clases</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link active" aria-current="page" href="#">Galería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contacto</a>
               </li>
             </ul>
-            <span class="navbar-text">
-              Todos los derechos reservados 
+            <span class="nav-link">
+              Todos los derechos reservados
             </span>
           </div>
         </div>
-    </footer> -->
-
-
-
-
-
-
+      </nav>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
