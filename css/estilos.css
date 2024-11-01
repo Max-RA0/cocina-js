@@ -1,0 +1,204 @@
+body{
+    background-color: #bcb9b9;
+}
+.hero-section {
+    padding: 50px 0;
+  
+    background-color: #f47373;
+    color: white;
+    text-align: center;
+    gap: -8;
+    
+}
+
+.navbar-brand img {
+    max-height: 130px;
+}
+
+.hero-section .col-lg-6 img {
+    
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+.seperador-linea {
+    width: 500px;
+    height: 1px;
+    background-color: white;
+    margin: 0 auto 20px auto;
+}
+
+
+
+.about-section {
+    padding: 50px 0;
+    background-color: #BFB882;
+    color: white;
+    
+ 
+
+}
+
+.about-section .col-lg-6 img {
+
+    width: 100%;
+    height: 60vh;
+    
+    
+    
+}
+
+
+
+
+
+.why-us-section {
+    padding: 100px 0;
+    background-color: #bcb9b9;
+    ;
+}
+
+.seperador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.card {
+    border: 1px solid #eee;
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card .card-content {
+    padding: 20px;
+}
+
+
+
+/* PRECIO Y FECHA DE LAS CARDS */
+
+
+
+.fecha,
+.price {
+    width: 100%;
+    background-color: #f47373;
+    color: white;
+    margin-right: 140px;
+    
+
+    
+}
+.fecha  {
+    height: 50px;
+   
+}
+
+
+
+.price {
+    width: 13%;
+    background-color: #90BE6D;
+    border-radius: 5px;
+    margin-top: -37px;
+    text-align: center;
+ 
+}
+
+
+
+
+
+
+.boton-info {
+    background-color: #f47373;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 15px;
+}
+
+.boton-info:hover {
+    background-color: #e66363;
+    color: white;
+}
+ 
+.Boton {
+    background-color: #f47373;
+    color: white;
+    border: none;
+    padding: 5px ;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-family: sans-serif;
+  
+}
+
+.Boton:hover {
+    background-color: #e66363;
+    color: white;
+    
+}
+
+
+.price{
+
+    margin-left: 345px;
+   
+}
+
+.titulo {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #333;
+}
+
+.titulo2 {
+    color: #f47373;
+    margin-bottom: 15px;
+}
+
+.nav-link{
+
+    margin-left: 40px;
+    color: black;
+    margin-top: -5px;
+}
+
+.navbar-text{
+
+margin-right: 100px;
+color: black;
+font-size: 20px;
+margin-top: -20px;
+
+
+}
+
+.navbar-brand{
+
+    margin-left: 300px;
+    margin-top: -22px;
+    
+
+
+}
